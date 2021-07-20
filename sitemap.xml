@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>jkpierce.github.io/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>jkpierce.github.io/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>jkpierce.github.io/media/</loc>
+    <loc>/media/</loc>
   </url><url>
-    <loc>jkpierce.github.io/teaching/</loc>
+    <loc>/teaching/</loc>
   </url>
 </urlset>

@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Kevin Pierce</title>
-    <link>jkpierce.github.io/</link>
+    <link>/</link>
     <description>Recent content in About on Kevin Pierce</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="jkpierce.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>jkpierce.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jkpierce.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>Personal Information  I am a PhD student in Geography at the University of British Columbia, in Vancouver, Canada. Previously I earned an MSc in physics at University of British Columbia and a BS in physics at West Virginia University. My hobbies include backpacking, mountain biking, and whitewater kayaking. I welcome any emails to discuss science.
 Research Interests In my research I study sediment transport processes on Earth&amp;rsquo;s surface using mechanistic physics.</description>
     </item>
     
     <item>
       <title>Assorted Media</title>
-      <link>jkpierce.github.io/media/</link>
+      <link>/media/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jkpierce.github.io/media/</guid>
+      <guid>/media/</guid>
       <description>Analytical Modelling Experimental Studies Computational Physics Hobbies </description>
     </item>
     
     <item>
       <title>Teaching Experience</title>
-      <link>jkpierce.github.io/teaching/</link>
+      <link>/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>jkpierce.github.io/teaching/</guid>
+      <guid>/teaching/</guid>
       <description>To date my teaching work has mainly involved teaching assistantships and course content development.
 Course Development I have a good deal of experience incorporating emerging virtual technologies into university courses:
   Produced four laboratory assignments with solutions and introductory materials for a fourth year Fluvial Geomorphology course. Topics included Flood Frequency Analysis, Sediment Entrainment, Sediment Transport of Mixtures, and Hydraulic Geometry.
