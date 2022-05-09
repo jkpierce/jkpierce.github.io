@@ -11,8 +11,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Personal Information  I am a postdoc in the Geography department at the University of British Columbia, in Vancouver, Canada. Previously I earned an MSc in physics at University of British Columbia and a BS in physics at West Virginia University. My hobbies include backpacking, mountain biking, and whitewater kayaking. I welcome any invitations to give talks or emails to discuss science.
-Research Interests In my research I study sediment transport processes on Earth&amp;rsquo;s surface using mechanistic physics.</description>
+      <description>Personal Information  I am a postdoc at The University of British Columbia in Vancouver, Canada. My research focuses on environmental transport processes, including river turbulence, granular flows, and fluid-driven sediment transport. I am educated in multiple disciplines, with PhD training in geomorphology and hydrology, and MSc training in statistical and condensed matter physics. This interdisciplinary background has enabled me to produce unique research that blends ideas from physics and geoscience.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about0/</guid>
+      <description>Personal Information  I am a postdoc in the Geography department at the University of British Columbia, in Vancouver, Canada. My research focuses on environmental transport processes, including river turbulence, granular flows, and fluid-driven sediment transport. I am educated in multiple disciplines, with PhD training in geomorphology and hydrology, and MSc training in statistical and condensed matter physics. This interdisciplinary background has enabled me to produce unique research that blends ideas from physics and geoscience.</description>
     </item>
     
     <item>
@@ -31,9 +39,9 @@ Research Interests In my research I study sediment transport processes on Earth&
       
       <guid>/teaching/</guid>
       <description>To date my teaching work has mainly involved teaching assistantships and course content development.
-Course Development I have a good deal of experience incorporating emerging virtual technologies into university courses:
-  Produced four laboratory assignments with solutions and introductory materials for a fourth year Fluvial Geomorphology course. Topics included Flood Frequency Analysis, Sediment Entrainment, Sediment Transport of Mixtures, and Hydraulic Geometry.
-  Produced a 45min Fluvial Geomorphology ``Virtual Field Trip&amp;quot; video documentary in collaboration with Bret Petersen and Marwan Hassan involving a tour of East Creek in the UBC Research Forest and pedagogical explanations of elements of reach-scale channel morphology, including step-pool sequences, the role of large wood, riffle-pool sequences, and bar dynamics.</description>
+Course Development During my PhD I gained a lot of experience incorporating emerging virtual technologies into university courses:
+  Developed five laboratory assignments with solutions and introductory materials for a fourth year undergraduate Fluvial Geomorphology course.
+  Produced a 45min geomorphology ``Virtual Field Trip&amp;quot; video documentary involving a tour of the UBC Research Forest and pedagogical explanations of various features.</description>
     </item>
     
   </channel>
