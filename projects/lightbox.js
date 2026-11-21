@@ -107,3 +107,36 @@
     center();
     window.addEventListener('load', center);
 })();
+
+/* "Back to top" button: appears once the reader has scrolled down a screen. */
+(function () {
+    var btn = document.createElement('button');
+    btn.className = 'to-top';
+    btn.type = 'button';
+    btn.setAttribute('aria-label', 'Back to top');
+    btn.innerHTML = '&uarr; Top';
+    document.body.appendChild(btn);
+    function update() { btn.classList.toggle('show', window.scrollY > window.innerHeight * 0.8); }
+    // Sit just right of the text column when there is room, else in the corner.
+    var col = document.querySelector('#content .container');
+    function place() {
+        var r = col ? col.getBoundingClientRect() : null;
+        var room = r ? window.innerWidth - r.right : 0;
+        if (r && room > btn.offsetWidth + 24) {
+            btn.style.left = (r.right + 12) + 'px';
+            btn.style.right = 'auto';
+        } else {
+            btn.style.left = '';
+            btn.style.right = '';
+        }
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', place);
+    window.addEventListener('load', place);
+    update();
+    place();
+    btn.addEventListener('click', function () {
+        var smooth = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' });
+    });
+})();
