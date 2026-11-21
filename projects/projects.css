@@ -11,7 +11,7 @@
 
 /* ---------- Showcase grid (projects/index.html) ---------- */
 
-#content .projects-intro { color: var(--muted); margin-bottom: 1.5rem; }
+#content .projects-intro { color: var(--ink); margin-bottom: 1.5rem; }
 
 .project-grid {
     display: grid;
@@ -51,7 +51,7 @@
 }
 .project-card-body { padding: .8rem 1rem 1rem; display: flex; flex-direction: column; gap: .4rem; flex: 1; }
 #content .project-card-title { margin: 0; font-size: 1.05rem; font-weight: 700; color: var(--ink); }
-#content .project-card-summary { margin: 0; font-size: .9rem; color: var(--muted); line-height: 1.35; }
+#content .project-card-summary { margin: 0; font-size: .9rem; color: var(--ink); line-height: 1.35; }
 #content .project-card-years { font-size: .8rem; color: var(--muted); margin-top: auto; }
 
 /* ---------- Tags (cards and project pages) ---------- */
@@ -73,7 +73,7 @@
 
 .project-header { margin: 1rem 0 1.25rem; }
 #content .project-header h2 { margin: 0 0 .4rem; font-size: 1.6rem; }
-#content .project-tagline { font-size: 1.05rem; color: var(--muted); margin: 0 0 .6rem; }
+#content .project-tagline { font-size: 1.05rem; color: var(--ink); margin: 0 0 .6rem; }
 
 #content figure { margin: 1rem 0 1.5rem; }
 #content figure img { margin: 0 auto; border-radius: 6px; }
