@@ -16,11 +16,13 @@
         '<button class="lb-btn lb-prev" aria-label="Previous">&#8249;</button>' +
         '<div class="lb-stage"></div>' +
         '<button class="lb-btn lb-next" aria-label="Next">&#8250;</button>' +
+        '<div class="lb-caption" hidden></div>' +
         '<div class="lb-count"></div>';
     document.body.appendChild(box);
 
     var stage = box.querySelector('.lb-stage');
     var count = box.querySelector('.lb-count');
+    var caption = box.querySelector('.lb-caption');
     var current = 0, opener = null;
 
     function show(i) {
@@ -40,6 +42,12 @@
         }
         stage.replaceChildren(el);
         count.textContent = (current + 1) + ' / ' + links.length;
+        // Show the tile's caption, if it has one (the hidden sort numbers don't count).
+        var cap = a.parentNode.querySelector('figcaption:not(.tile-num)');
+        var html = cap ? cap.innerHTML.trim() : '';
+        caption.innerHTML = html;
+        caption.hidden = !html;
+        box.classList.toggle('has-cap', !!html);
         // Preload the neighbours so stepping feels instant.
         [current + 1, current - 1].forEach(function (j) {
             var n = links[(j + links.length) % links.length];
