@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Mixing in multiphase flows | J. Kevin Pierce</title>
+    <meta name="description" content="Mapping the effect of multiphase flow intermittency on fluid mixing rates in porous media.">
+    <meta name="author" content='J. Kevin Pierce'>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css?v=20">
+    <link rel="stylesheet" href="/projects/projects.css?v=19">
+
+    
+        <link rel="icon" type="image/ico" href="/favicon.ico?v=2">
+    
+
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="/" title="J. Kevin Pierce">
+          
+          J. Kevin Pierce
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/about" title="Info"><i class="fas fa-info-circle"></i> Info
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a aria-current="page" class="nav-item nav-link" href="/projects/" title="Projects"><i class="fas fa-flask"></i> Projects
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/cv-kevin-pierce.pdf#view=FitH" target="_blank" rel="noopener" title="CV">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/></svg> CV
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <!--
+      HOW TO EDIT THIS PAGE
+      - Images and GIFs for this section go in the media/ folder next to this file.
+        Reference them as src="media/<file>". Clicking an image opens it full size.
+      - Gallery: copy a <figure> block to add a photo; delete one to remove it.
+        Keep captions to a sentence.
+      - Papers: one <li> per paper.
+      - The card for this section on the Projects page (image, blurb) is in
+        projects/index.html.
+    -->
+
+    <p class="back-link"><a href="/projects/">&larr; All projects</a></p>
+
+    <!-- Section tabs: the same list appears on every project page.
+         If you add or rename a section, update this block in each file. -->
+    <nav class="project-tabs" aria-label="Project sections">
+        <a href="/projects/solute-mixing-2d/">Solute<br>mixing</a>
+        <a href="/projects/mixing-multiphase-flows/" aria-current="page">Multiphase<br>mixing</a>
+        <a href="/projects/multiphase-flows-porous-media/">Multiphase<br>flows</a>
+        <a href="/projects/flow-velocimetry-porous-media/">Flow<br>velocimetry</a>
+        <a href="/projects/fabrication-automation/">Lab<br>fabrication</a>
+        <a href="/projects/sediment-transport/">Sediment<br>transport</a>
+        <a href="/projects/numerics-analyses-simulations/">Numerical<br>simulations</a>
+    </nav>
+
+    <header class="project-header">
+        <h2>Mixing in multiphase flows</h2>
+        <p class="project-tagline">Mapping the effect of multiphase flow intermittency on fluid mixing rates in porous media.</p>
+    </header>
+
+    <!-- SORTED-MEDIA:START (hand-sorted; previews.py leaves this page alone) -->
+    <div class="media-previews media-row-1 full-width">
+        <figure class="media-tile" id="m52" title="media/glowingFluorescentTwoPhase.jpg">
+            <a href="media/glowingFluorescentTwoPhase.jpg"><img src="media/glowingFluorescentTwoPhase.jpg" alt="Media 52" loading="lazy"></a>
+            <figcaption>52</figcaption>
+        </figure>
+    </div>
+
+    <h3 id="mixing-3d">3D imaging of mixing in multiphase flows</h3>
+    <p>Haines jumps during drainage of a porous medium accelerate fluid mixing rates. Tomographic imaging experiments based on laser-induced fluorescence and refractive index matching resolve solute concentration fields at pore scale.</p>
+    <div class="media-previews media-row-1">
+        <figure class="media-tile" id="m29" title="media/PXL_20250604_224533961.jpg">
+            <a href="media/PXL_20250604_224533961.jpg"><img src="media/PXL_20250604_224533961.jpg" alt="Media 29" loading="lazy"></a>
+            <figcaption>29</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1">
+        <figure class="media-tile" id="m53" title="media/image38.png">
+            <a href="media/image38.png"><img src="media/image38.png" alt="Media 53" loading="lazy"></a>
+            <figcaption>53</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1">
+        <figure class="media-tile" id="m247" title="media/image1.png">
+            <a href="media/image1.png"><img src="media/image1.png" alt="Media 247" loading="lazy"></a>
+            <figcaption>247</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews justify">
+        <figure class="media-tile" id="m248" style="--ar:0.902" title="media/image14.gif">
+            <a href="media/image14.gif"><img src="media/image14.gif" alt="Media 248" loading="lazy"></a>
+            <figcaption>248</figcaption>
+        </figure>
+        <figure class="media-tile" id="m251" style="--ar:0.866" title="media/image30.png">
+            <a href="media/image30.png"><img src="media/image30.png" alt="Media 251" loading="lazy"></a>
+            <figcaption>251</figcaption>
+        </figure>
+    </div>
+
+    <h3 id="drainage-mixing-2d">2D studies of mixing in drainage flows</h3>
+    <p>Fluorescence imaging of solute transport in drainage flows, where air replaces water containing a chemical substance. Unsteady motion of fluid interfaces drives alternate stretching and folding of the solute distribution, leading to chaotic mixing.</p>
+    <div class="media-previews media-row-1">
+        <figure class="media-tile" id="m43" title="media/pnas.2612884123.sm02.gif">
+            <a href="media/pnas.2612884123.sm02.gif"><img src="media/pnas.2612884123.sm02.gif" alt="Media 43" loading="lazy"></a>
+            <figcaption>43</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1">
+        <figure class="media-tile" id="m40" title="media/image32.gif">
+            <a href="media/image32.gif"><img src="media/image32.gif" alt="Media 40" loading="lazy"></a>
+            <figcaption>40</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1">
+        <figure class="media-tile" id="m36" title="media/Screenshot From 2026-11-19 23-33-52.png">
+            <a href="media/Screenshot%20From%202026-11-19%2023-33-52.png"><img src="media/Screenshot%20From%202026-11-19%2023-33-52.png" alt="Media 36" loading="lazy"></a>
+            <figcaption>36</figcaption>
+        </figure>
+    </div>
+    <ul class="pub-list">
+        <li><a href="https://doi.org/10.1073/pnas.2612884123">Linga, G., <strong>Pierce, J.K.</strong>, Moura, M., Mathiesen, J., Renard, F., &amp; Le Borgne, T., Dynamic multiphase flow triggers chaotic mixing in porous media, <em>Proceedings of the National Academy of Sciences</em> 123 (34), e2612884123, 2026.</a></li>
+    </ul>
+
+    <h3 id="imbibition">Mixing by imbibition</h3>
+    <p>Chemical laden water wicks into a porous medium with trapped clusters of water (secondary imbibition). Contact of invading and resident fluid bodies produces dramatic mixing jets.</p>
+    <div class="media-previews justify">
+        <figure class="media-tile" id="m39" style="--ar:0.9216" title="media/image17.gif">
+            <a href="media/image17.gif"><img src="media/image17.gif" alt="Media 39" loading="lazy"></a>
+            <figcaption>39</figcaption>
+        </figure>
+        <figure class="media-tile" id="m37" style="--ar:0.7616" title="media/image12.png">
+            <a href="media/image12.png"><img src="media/image12.png" alt="Media 37" loading="lazy"></a>
+            <figcaption>37</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1">
+        <figure class="media-tile" id="m38" title="media/image15.png">
+            <a href="media/image15.png"><img src="media/image15.png" alt="Media 38" loading="lazy"></a>
+            <figcaption>38</figcaption>
+        </figure>
+    </div>
+
+    <!-- SORTED-MEDIA:END -->
+
+    <!-- PROJECT-PAGER:START -->
+    <nav class="project-pager" aria-label="Project pages">
+        <a class="pager-prev" href="/projects/solute-mixing-2d/"><span class="pager-label">&larr; Previous</span><span class="pager-title">Solute mixing in single-phase flows</span></a>
+        <a class="pager-next" href="/projects/multiphase-flows-porous-media/"><span class="pager-label">Next &rarr;</span><span class="pager-title">Multiphase flow dynamics in porous media</span></a>
+    </nav>
+    <!-- PROJECT-PAGER:END -->
+</div>
+</div>
+<div id="footer" class="mb-5">
+    <hr>
+    <div class="container text-center">
+        
+            <a href="mailto:kevinpi@uio.no" class="fas fa-envelope fa-1x" title="E-mail"> kevinpi@uio.no</a>
+        
+            <span class="nav-item navbar-text mx-1" style="color:#444">/</span>
+        
+            <a href="https://www.mn.uio.no/njord/personer/postdoc-og-forskere/kevinpi/index.html" class="fas fa-globe fa-1x" title="UiO Profile"> website UiO</a>
+        
+            <span class="nav-item navbar-text mx-1" style="color:#444">/</span>
+        
+            <a href="https://github.com/jkpierce" class="fab fa-github fa-1x" title="Github"> jkpierce</a>
+        
+            <span class="nav-item navbar-text mx-1" style="color:#444">/</span>
+        
+            <a href="https://scholar.google.co.il/citations?user=NME31_YAAAAJ&amp;hl=en" class="fab fa-google fa-1x" title="Google Scholar"> scholar</a>
+        
+    </div>
+    
+        <div class="container text-center">
+            <a href="https://jk-pierce.com/" title=""><small></small></a>
+        </div>
+    
+</div>
+<script src="/projects/lightbox.js?v=3" defer></script>
+</body>
+</html>

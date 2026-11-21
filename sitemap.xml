@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>/about/</loc>
-  </url><url>
-    <loc>/</loc>
-  </url><url>
-    <loc>/about0/</loc>
-  </url><url>
-    <loc>/media/</loc>
-  </url><url>
-    <loc>/teaching/</loc>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://jk-pierce.com/</loc></url>
+  <url><loc>https://jk-pierce.com/about/</loc></url>
+  <url><loc>https://jk-pierce.com/projects/</loc></url>
+  <url><loc>https://jk-pierce.com/projects/sediment-transport/</loc></url>
+  <url><loc>https://jk-pierce.com/projects/solute-mixing-2d/</loc></url>
+  <url><loc>https://jk-pierce.com/projects/mixing-multiphase-flows/</loc></url>
+  <url><loc>https://jk-pierce.com/projects/multiphase-flows-porous-media/</loc></url>
+  <url><loc>https://jk-pierce.com/projects/flow-velocimetry-porous-media/</loc></url>
+  <url><loc>https://jk-pierce.com/projects/fabrication-automation/</loc></url>
+  <url><loc>https://jk-pierce.com/projects/numerics-analyses-simulations/</loc></url>
+  <url><loc>https://jk-pierce.com/cv/</loc></url>
 </urlset>

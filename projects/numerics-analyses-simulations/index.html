@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Simulations of fluid and granular dynamics | J. Kevin Pierce</title>
+    <meta name="description" content="OpenFOAM and FEniCS for fluid flows, Yade and HOOMD-blue for granular dynamics, OpenPNM for pore-network modelling, Partrac for transport, and different custom machine-learning algorithms for data treatment and analysis.">
+    <meta name="author" content='J. Kevin Pierce'>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css?v=20">
+    <link rel="stylesheet" href="/projects/projects.css?v=19">
+
+    
+        <link rel="icon" type="image/ico" href="/favicon.ico?v=2">
+    
+
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="/" title="J. Kevin Pierce">
+          
+          J. Kevin Pierce
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/about" title="Info"><i class="fas fa-info-circle"></i> Info
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a aria-current="page" class="nav-item nav-link" href="/projects/" title="Projects"><i class="fas fa-flask"></i> Projects
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/cv-kevin-pierce.pdf#view=FitH" target="_blank" rel="noopener" title="CV">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/></svg> CV
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <!--
+      HOW TO EDIT THIS PAGE
+      - Images and GIFs for this section go in the media/ folder next to this file.
+        Reference them as src="media/<file>". Clicking an image opens it full size.
+      - Gallery: copy a <figure> block to add a photo; delete one to remove it.
+        Keep captions to a sentence.
+      - Papers: one <li> per paper.
+      - The card for this section on the Projects page (image, blurb) is in
+        projects/index.html.
+    -->
+
+    <p class="back-link"><a href="/projects/">&larr; All projects</a></p>
+
+    <!-- Section tabs: the same list appears on every project page.
+         If you add or rename a section, update this block in each file. -->
+    <nav class="project-tabs" aria-label="Project sections">
+        <a href="/projects/solute-mixing-2d/">Solute<br>mixing</a>
+        <a href="/projects/mixing-multiphase-flows/">Multiphase<br>mixing</a>
+        <a href="/projects/multiphase-flows-porous-media/">Multiphase<br>flows</a>
+        <a href="/projects/flow-velocimetry-porous-media/">Flow<br>velocimetry</a>
+        <a href="/projects/fabrication-automation/">Lab<br>fabrication</a>
+        <a href="/projects/sediment-transport/">Sediment<br>transport</a>
+        <a href="/projects/numerics-analyses-simulations/" aria-current="page">Numerical<br>simulations</a>
+    </nav>
+
+    <header class="project-header">
+        <h2>Simulations of fluid and granular dynamics</h2>
+        <p class="project-tagline">OpenFOAM and FEniCS for fluid flows, Yade and HOOMD-blue for granular dynamics, OpenPNM for pore-network modelling, Partrac for transport, and different custom machine-learning algorithms for data treatment and analysis.</p>
+    </header>
+
+    <h3 id="flow-transport-simulation">Flow and transport simulations</h3>
+    <p>Different FEniCS and Partrac simulations, and an OpenPNM example.</p>
+    <div class="media-previews justify">
+        <figure class="media-tile" id="m128" style="--ar:0.9875" title="media/transportSims/image28.png">
+            <a href="media/transportSims/image28.png"><img src="media/transportSims/image28.png" alt="Media 128" loading="lazy"></a>
+            <figcaption>128</figcaption>
+        </figure>
+        <figure class="media-tile" id="m127" style="--ar:0.857" title="media/transportSims/image27.png">
+            <a href="media/transportSims/image27.png"><img src="media/transportSims/image27.png" alt="Media 127" loading="lazy"></a>
+            <figcaption>127</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews justify">
+        <figure class="media-tile" id="m134" style="--ar:1.3333" title="media/transportSims/mesh3d_closeup_tets_dark.png">
+            <a href="media/transportSims/mesh3d_closeup_tets_dark.png"><img src="media/transportSims/mesh3d_closeup_tets_dark.png" alt="Media 134" loading="lazy"></a>
+            <figcaption>134</figcaption>
+        </figure>
+        <figure class="media-tile" id="m138" style="--ar:1.0" title="media/transportSims/pack_speed_cube_dark.png">
+            <a href="media/transportSims/pack_speed_cube_dark.png"><img src="media/transportSims/pack_speed_cube_dark.png" alt="Media 138" loading="lazy"></a>
+            <figcaption>138</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1 full-width">
+        <figure class="media-tile" id="m152" title="media/transportSims/pore_network_map_dark.png">
+            <a href="media/transportSims/pore_network_map_dark.png"><img src="media/transportSims/pore_network_map_dark.png" alt="Media 152" loading="lazy"></a>
+            <figcaption>152</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1 full-width">
+        <figure class="media-tile" id="m175" title="media/transportSims/walkers3d_A1_light_top.mp4">
+            <a href="media/transportSims/walkers3d_A1_light_top.mp4"><video src="media/transportSims/walkers3d_A1_light_top.mp4" muted loop autoplay playsinline preload="metadata"></video></a>
+            <figcaption>175</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews justify">
+        <figure class="media-tile" id="m187" style="--ar:1.0" title="media/unsortedMedia/stokes3d_rock_test_cube5.png">
+            <a href="media/unsortedMedia/stokes3d_rock_test_cube5.png"><img src="media/unsortedMedia/stokes3d_rock_test_cube5.png" alt="Media 187" loading="lazy"></a>
+            <figcaption>187</figcaption>
+        </figure>
+        <figure class="media-tile" id="m193" style="--ar:1.0" title="media/unsortedMedia/stokes3d_rock_test_open.png">
+            <a href="media/unsortedMedia/stokes3d_rock_test_open.png"><img src="media/unsortedMedia/stokes3d_rock_test_open.png" alt="Media 193" loading="lazy"></a>
+            <figcaption>193</figcaption>
+        </figure>
+    </div>
+
+    <h3 id="granular-dynamics">Granular dynamics</h3>
+    <p>Granular pack formation from Yade and HOOMD-blue, plus some meshes formed with Gmsh. I have been very interested in sediment transport and granular flow simulation for some time and hope to have more time to work on this some day.</p>
+    <div class="media-previews justify">
+        <figure class="media-tile" id="m83" style="--ar:0.5" title="media/yade_settling_grains.gif">
+            <a href="media/yade_settling_grains.gif"><img src="media/yade_settling_grains.gif" alt="Media 83" loading="lazy"></a>
+            <figcaption>83</figcaption>
+        </figure>
+        <figure class="media-tile" id="m85" style="--ar:1.0" title="media/yade_settling_zoom_rainbow.gif">
+            <a href="media/yade_settling_zoom_rainbow.gif"><img src="media/yade_settling_zoom_rainbow.gif" alt="Media 85" loading="lazy"></a>
+            <figcaption>85</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1 full-width">
+        <figure class="media-tile" id="m179" title="media/unsortedMedia/hpmc_flat_case_1_snapshots.png">
+            <a href="media/unsortedMedia/hpmc_flat_case_1_snapshots.png"><img src="media/unsortedMedia/hpmc_flat_case_1_snapshots.png" alt="Media 179" loading="lazy"></a>
+            <figcaption>179</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1 full-width">
+        <figure class="media-tile" id="m101" title="media/granularSims/Screenshot From 2026-11-20 00-40-32.png">
+            <a href="media/granularSims/Screenshot%20From%202026-11-20%2000-40-32.png"><img src="media/granularSims/Screenshot%20From%202026-11-20%2000-40-32.png" alt="Media 101" loading="lazy"></a>
+            <figcaption>101</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews justify">
+        <figure class="media-tile" id="m94" style="--ar:0.75" title="media/flowSimulations/openfoam_flat1_mesh_front_light.png">
+            <a href="media/flowSimulations/openfoam_flat1_mesh_front_light.png"><img src="media/flowSimulations/openfoam_flat1_mesh_front_light.png" alt="Media 94" loading="lazy"></a>
+            <figcaption>94</figcaption>
+        </figure>
+        <figure class="media-tile" id="m96" style="--ar:0.8" title="media/flowSimulations/openfoam_flat1_mesh_full_light.png">
+            <a href="media/flowSimulations/openfoam_flat1_mesh_full_light.png"><img src="media/flowSimulations/openfoam_flat1_mesh_full_light.png" alt="Media 96" loading="lazy"></a>
+            <figcaption>96</figcaption>
+        </figure>
+    </div>
+
+    <h3 id="ml-image-analysis">Machine-learning for data treatment and analysis</h3>
+    <p>Here is a custom filament-finding pipeline and divergence-cleaning algorithm.</p>
+    <div class="media-previews media-row-1 full-width">
+        <figure class="media-tile" id="m125" title="media/machineLearningImageAnalysis/detector_pipeline.png">
+            <a href="media/machineLearningImageAnalysis/detector_pipeline.png"><img src="media/machineLearningImageAnalysis/detector_pipeline.png" alt="Media 125" loading="lazy"></a>
+            <figcaption>125</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1 full-width">
+        <figure class="media-tile" id="m126" title="media/machineLearningImageAnalysis/detector_timelapse.gif">
+            <a href="media/machineLearningImageAnalysis/detector_timelapse.gif"><img src="media/machineLearningImageAnalysis/detector_timelapse.gif" alt="Media 126" loading="lazy"></a>
+            <figcaption>126</figcaption>
+        </figure>
+    </div>
+    <div class="media-previews media-row-1 full-width">
+        <figure class="media-tile" id="m123" title="media/machineLearningImageAnalysis/Screenshot From 2026-11-20 01-02-04.png">
+            <a href="media/machineLearningImageAnalysis/Screenshot%20From%202026-11-20%2001-02-04.png"><img src="media/machineLearningImageAnalysis/Screenshot%20From%202026-11-20%2001-02-04.png" alt="Media 123" loading="lazy"></a>
+            <figcaption>123</figcaption>
+        </figure>
+    </div>
+
+
+    <!-- PROJECT-PAGER:START -->
+    <nav class="project-pager" aria-label="Project pages">
+        <a class="pager-prev" href="/projects/sediment-transport/"><span class="pager-label">&larr; Previous</span><span class="pager-title">Sediment transport in rivers</span></a>
+        <span></span>
+    </nav>
+    <!-- PROJECT-PAGER:END -->
+</div>
+</div>
+<div id="footer" class="mb-5">
+    <hr>
+    <div class="container text-center">
+        
+            <a href="mailto:kevinpi@uio.no" class="fas fa-envelope fa-1x" title="E-mail"> kevinpi@uio.no</a>
+        
+            <span class="nav-item navbar-text mx-1" style="color:#444">/</span>
+        
+            <a href="https://www.mn.uio.no/njord/personer/postdoc-og-forskere/kevinpi/index.html" class="fas fa-globe fa-1x" title="UiO Profile"> website UiO</a>
+        
+            <span class="nav-item navbar-text mx-1" style="color:#444">/</span>
+        
+            <a href="https://github.com/jkpierce" class="fab fa-github fa-1x" title="Github"> jkpierce</a>
+        
+            <span class="nav-item navbar-text mx-1" style="color:#444">/</span>
+        
+            <a href="https://scholar.google.co.il/citations?user=NME31_YAAAAJ&amp;hl=en" class="fab fa-google fa-1x" title="Google Scholar"> scholar</a>
+        
+    </div>
+    
+        <div class="container text-center">
+            <a href="https://jk-pierce.com/" title=""><small></small></a>
+        </div>
+    
+</div>
+<script src="/projects/lightbox.js?v=3" defer></script>
+</body>
+</html>

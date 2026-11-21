@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=""><head>
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -7,15 +7,15 @@
     <meta name="description" content="Environmental science researcher">
     <meta name="author" content='J. Kevin Pierce'>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
 
     
-    <link rel="stylesheet" href="/sass/researcher.min.css">
+    <link rel="stylesheet" href="/sass/researcher.min.css?v=20">
 
     
-        <link rel="icon" type="image/ico" href="favicon.ico">
+        <link rel="icon" type="image/ico" href="/favicon.ico?v=2">
     
 
     
@@ -25,7 +25,7 @@
 
     <body><div class="container mt-5">
     <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
-        <a class="navbar-brand mx-0 mr-sm-auto" href="" title="J. Kevin Pierce">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="/" title="J. Kevin Pierce">
           
           J. Kevin Pierce
         </a>
@@ -33,19 +33,19 @@
             
                 
                 
-                    <a class="nav-item nav-link" href="/about" title="Research"><i class="fas fa-flask"></i> Research
+                    <a aria-current="page" class="nav-item nav-link" href="/about" title="Info"><i class="fas fa-info-circle"></i> Info
                     </a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
                     
                 
-                    <a class="nav-item nav-link" href="/media" title="Media"><i class="fas fa-video"></i> Media
+                    <a class="nav-item nav-link" href="/projects/" title="Projects"><i class="fas fa-flask"></i> Projects
                     </a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
                     
                 
-                    <a class="nav-item nav-link" href="/cv-kevin-pierce.pdf#view=FitH" title="CV">
+                    <a class="nav-item nav-link" href="/cv-kevin-pierce.pdf#view=FitH" target="_blank" rel="noopener" title="CV">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/></svg> CV
                     </a>
                     
@@ -57,22 +57,34 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h2 id="personal-information">Personal Information</h2>
+    <h2 id="personal-information">Personal Information:</h2>
 <figure class="avatar"><img src="/avatar3.jpg"
          alt="avatar"/>
 </figure>
 
-<p>I am a postdoc at Porelab and the Njord Centre at the University of Oslo, in the departments of physics and geosciences. My research focuses on environmental transport processes, including flow, transport, and reactions in porous and fractured media, and sediment transport in rivers. I am educated in multiple disciplines, with PhD training in geomorphology and hydrology, and MSc training in statistical and condensed matter physics. This background has supported my research projects that apply mathematical, computational, and experimental ideas from physics to geoscience problems.</p>
-<hr>
-<h2 id="research-interests">Research Interests</h2>
-<p>Currently my main research topic is chemical transport through unsaturated flows in porous media. How chemicals migrate and react in the subsurface has become relatively well understood, but uncertainties remain about how the presence of a second fluid phase (i.e., air and water in the ground) impacts mixing and chemical reaction rates. This has important implications for our ability to remediate polluted soils and to understand nutrient dynamics in the critical zone.</p>
-<h2 id="articles">Articles</h2>
+<p>I am a researcher at Porelab and the Njord Centre at the University of Oslo, in the departments of physics and geosciences. My research focuses on environmental transport processes: flow, transport and reactions in porous media, and sediment transport in rivers.</p>
+<p>I completed an MSc in condensed matter and statistical physics and a PhD in geomorphology and hydrology. My work spans laboratory experiments, numerical simulations, and analytical modeling.</p>
+<h2 id="research-interests">Research Interests:</h2>
+<ul class="bullets">
+<li>Fluid dynamics in porous media</li>
+<li>Solute mixing and chemical reactions</li>
+<li>Multi-phase flows in porous media</li>
+<li>Sediment transport mechanics</li>
+<li>Applied stochastic processes</li>
+</ul>
+<h2 id="papers">Articles:</h2>
 <ul>
 <li>
-<p><a href="https://arxiv.org/abs/2604.10382">Linga, G., <strong>Pierce, J.K.</strong>, Moura, M., Mathiesen, J., Renard, F., &amp; Le Borgne, T., Dynamic multiphase flow triggers chaotic mixing in porous media, arXiv:2604.10382, 2026.</a></p>
+<p><strong>Pierce, J.K.</strong>, Le Borgne, T., &amp; Linga, G., Solute mixing and aggregation in heterogeneous porous media, 2026. In preparation.</p>
 </li>
 <li>
-<p><a href="https://arxiv.org/abs/2604.02981"><strong>Pierce, J.K.</strong>, Le Borgne, T., Renard, F., &amp; Linga, G., How pore-scale disorder controls fluid stretching in porous media, arXiv:2604.02981, 2026.</a></p>
+<p><a href="https://arxiv.org/abs/2610.04105">Dumay, Y., <strong>Pierce, J.K.</strong>, Delhaie, J., &amp; Eiser, E., Transparent 3D-printed flow cells for porous media studies with proof-of-concept on two-phase flow-reversal asymmetry, arXiv:2610.04105, 2026.</a></p>
+</li>
+<li>
+<p><a href="https://doi.org/10.1073/pnas.2612884123">Linga, G., <strong>Pierce, J.K.</strong>, Moura, M., Mathiesen, J., Renard, F., &amp; Le Borgne, T., Dynamic multiphase flow triggers chaotic mixing in porous media, Proceedings of the National Academy of Sciences 123 (34), e2612884123, 2026.</a></p>
+</li>
+<li>
+<p><a href="https://arxiv.org/abs/2604.02981"><strong>Pierce, J.K.</strong>, Le Borgne, T., Renard, F., &amp; Linga, G., How pore-scale disorder controls fluid stretching in porous media, arXiv:2604.02981, 2026. In revision for <em>Journal of Fluid Mechanics</em>.</a></p>
 </li>
 <li>
 <p><a href="https://doi.org/10.1029/2025WR041119">Hassan, M.A., Xing, T., McDowell, C., <strong>Pierce, J.K.</strong>, Turley, M., Leader-Cole, S., &amp; Viparelli, E., Vertical sorting of bed material in gravel-bed streams—Insights from long-term observations in East Creek, British Columbia, Water Resources Research 61 (10), e2025WR041119, 2025.</a></p>

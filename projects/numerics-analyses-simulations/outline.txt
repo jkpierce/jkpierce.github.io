@@ -1,0 +1,7 @@
+
+sections:
+
+discrete element simulation of granular structures
+stokes flows in complex structures using openfoam
+flow and transport simulations in fenicx
+machine-learning based image analysis
