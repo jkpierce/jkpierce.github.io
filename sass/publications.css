@@ -92,3 +92,6 @@
     #content .pub-chart { grid-column: 1 / -1; justify-self: stretch; max-width: none; }
     #content .pub-num { font-size: 1.6rem; }
 }
+
+/* A paper with nothing to show in its label row (e.g. in preparation) gets no empty row. */
+#content .pub-meta:not(:has(> :not([hidden]))) { display: none; }
