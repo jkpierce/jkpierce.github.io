@@ -95,3 +95,6 @@
 
 /* A paper with nothing to show in its label row (e.g. in preparation) gets no empty row. */
 #content .pub-meta:not(:has(> :not([hidden]))) { display: none; }
+
+/* Summary placed after the list. */
+.pub-list + .pub-summary { margin-top: 1.6rem; }
