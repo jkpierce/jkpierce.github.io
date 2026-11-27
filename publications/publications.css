@@ -1,0 +1,94 @@
+/* Publications page. Builds on the CV page styles in researcher.min.css. */
+.pubs-page { --accent: #0b7285; --muted: #666; --line: #ddd; --sans: 'Source Sans 3', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+
+/* The site sets Junicode on every element (*), so name the sans font explicitly. */
+#content .pubs-page .pub-meta, #content .pubs-page .pub-meta *, #content .pubs-page .pub-seg, #content .pubs-page .pub-seg *,
+#content .pubs-page .pub-lab, #content .pubs-page .pub-source, #content .pubs-page .pub-source *,
+#content .pubs-page .pub-chart figcaption { font-family: var(--sans); }
+#content .pubs-page .pub-seg-lab, #content .pubs-page .pub-lab { color: var(--muted); }
+
+/* Summary: three numbers and a small chart */
+.pub-summary {
+    display: grid;
+    grid-template-columns: repeat(3, auto) 1fr;
+    align-items: end;
+    gap: 1.6rem;
+    margin: 1.2rem 0 .4rem;
+    padding: 1rem 0 .8rem;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid var(--line);
+}
+.pub-stat { display: flex; flex-direction: column; line-height: 1.1; }
+#content .pub-num { font-size: 1.9rem; font-weight: 600; font-variant-numeric: lining-nums; color: #222; }
+#content .pub-lab { font-family: var(--sans); font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+#content .pub-chart { margin: 0; min-width: 0; justify-self: end; width: 100%; max-width: 300px; }
+#content .pub-chart svg { display: block; width: 100%; height: auto; }
+.pub-chart .bar { fill: var(--accent); opacity: .85; }
+.pub-chart g:hover .bar { opacity: 1; }
+.pub-chart .axis { stroke: #bbb; stroke-width: 1; }
+.pub-chart text { font-family: var(--sans); text-anchor: middle; }
+.pub-chart .val { font-size: 8px; fill: #444; }
+.pub-chart .yr { font-size: 8.5px; fill: var(--muted); }
+#content .pub-chart figcaption { font-family: var(--sans); font-size: .75rem; color: var(--muted); text-align: right; margin-top: .1rem; }
+.pubs-page:not(.has-metrics) .pub-chart { display: none; }
+#content p.pub-source { font-family: var(--sans); font-size: .8rem; color: var(--muted); margin: 0 0 1.2rem; }
+#content p.pub-source a { color: var(--muted); text-decoration: underline; text-decoration-color: #bbb; }
+
+/* Sort and filter controls */
+.pub-controls { display: flex; flex-wrap: wrap; gap: .6rem 1.6rem; margin-bottom: .6rem; }
+.pub-seg { display: flex; align-items: center; flex-wrap: wrap; gap: .3rem; font-family: var(--sans); }
+.pub-seg-lab { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-right: .2rem; }
+.pub-seg button {
+    font: inherit;
+    font-size: .85rem;
+    padding: .1rem .65rem;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    background: #fff;
+    color: #444;
+    cursor: pointer;
+}
+.pub-seg button:hover { border-color: var(--accent); color: var(--accent); }
+.pub-seg button[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: #fff; }
+#content .pubs-page .pub-seg button { color: #444; }
+#content .pubs-page .pub-seg button:hover { color: var(--accent); }
+#content .pubs-page .pub-seg button[aria-pressed="true"] { color: #fff; }
+
+/* The list */
+#content ol.pub-list { list-style: none; padding-left: 0; margin: 0; }
+#content ol.pub-list > li.pub { padding: .75rem 0 .8rem; border-bottom: 1px solid #eee; line-height: 1.45; }
+#content ol.pub-list > li.pub[hidden] { display: none; }
+#content ol.pub-list > li.pub-year {
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-variant-numeric: lining-nums;
+    margin: 1.4rem 0 0;
+    padding-bottom: .2rem;
+    border-bottom: 1px solid #222;
+}
+#content ol.pub-list > li.pub-year:first-child { margin-top: .6rem; }
+#content .pub-authors { color: #444; font-size: .95rem; }
+#content .pub-title { font-weight: 600; color: #222; }
+#content a.pub-title:hover { color: var(--accent); }
+#content .pub-venue { color: #444; font-size: .95rem; }
+#content .pub-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .5rem; margin-top: .35rem; font-family: var(--sans); font-size: .8rem; }
+#content .pub-meta [hidden] { display: none; }
+#content .pub-tag, #content .pub-oa, #content .pub-cites {
+    padding: .05rem .5rem;
+    border-radius: 999px;
+    border: 1px solid #ccc;
+    color: #555;
+    white-space: nowrap;
+}
+#content .pub-oa { border-color: #c9a227; color: #8a6d00; }
+#content .pub-cites { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+#content a.pub-link { color: var(--accent); }
+#content a.pub-link:hover { text-decoration: underline; }
+#content .altmetric-embed { display: inline-block; line-height: 0; }
+#content .altmetric-embed img { margin: 0; display: inline; }
+
+@media (max-width: 575.98px) {
+    .pub-summary { grid-template-columns: repeat(3, 1fr); gap: .8rem; }
+    #content .pub-chart { grid-column: 1 / -1; justify-self: stretch; max-width: none; }
+    #content .pub-num { font-size: 1.6rem; }
+}
