@@ -21,5 +21,3 @@ html{font-size:18px}body{font-variant-numeric:oldstyle-nums proportional-nums;fo
 #content a.cv-doi{font-family:'Source Sans 3',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.8rem;white-space:nowrap}
 .cv-page .cv-foot{display:flex;justify-content:space-between;gap:1rem;margin:2.5rem 0 1rem;padding-top:1.25rem;border-top:1px solid #ddd}
 @media (max-width:575.98px){.cv-entries{grid-template-columns:1fr;gap:.15rem;padding-left:0}#content .cv-body{margin-bottom:.7rem}#content ol.cv-list{padding-left:0}}
-#content p.pubs-more{font-family:'Source Sans 3',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.9rem;padding-left:1.5rem;margin-top:.4rem}#content p.pubs-more a{color:#0b7285;font-family:inherit}
-@media (max-width:575.98px){.navbar .nav-link>i,.navbar .nav-link>svg{display:none}.navbar .nav-link{padding-left:.35rem;padding-right:.35rem}.navbar .navbar-nav .navbar-text{margin-left:.1rem!important;margin-right:.1rem!important}}

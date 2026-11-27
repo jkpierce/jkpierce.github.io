@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
 
     
-    <link rel="stylesheet" href="/sass/researcher.min.css?v=28">
+    <link rel="stylesheet" href="/sass/researcher.min.css?v=27">
 
     
+        <link rel="stylesheet" href="/sass/publications.css?v=1">
+
         <link rel="icon" type="image/ico" href="/favicon.ico?v=2">
     
 
@@ -26,8 +28,8 @@
 </head>
 
     <body><div class="container mt-5">
-    <nav class="navbar navbar-expand-sm flex-column flex-md-row text-nowrap p-0">
-        <a class="navbar-brand mx-0 mr-md-auto" href="/" title="J. Kevin Pierce">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="/" title="J. Kevin Pierce">
           
           J. Kevin Pierce
         </a>
@@ -42,12 +44,6 @@
                     
                 
                     <a class="nav-item nav-link" href="/projects/" title="Projects"><i class="fas fa-flask"></i> Projects
-                    </a>
-                    
-                        <span class="nav-item navbar-text mx-1">/</span>
-                    
-                
-                    <a class="nav-item nav-link" href="/publications/" title="Publications"><i class="fas fa-book"></i> Publications
                     </a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
@@ -82,45 +78,100 @@
 <li>Applied stochastic processes</li>
 </ul>
 <h2 id="papers">Journal Articles:</h2>
-<ul>
-<li>
-<p><strong>Pierce, J.K.</strong>, Le Borgne, T., &amp; Linga, G., Solute mixing and aggregation in heterogeneous porous media, 2026. In preparation.</p>
-</li>
-<li>
-<p><a href="https://arxiv.org/abs/2610.04105">Dumay, Y., <strong>Pierce, J.K.</strong>, Delhaie, J., &amp; Eiser, E., Transparent 3D-printed flow cells for porous media studies with proof-of-concept on two-phase flow-reversal asymmetry, arXiv:2610.04105, 2026.</a></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1073/pnas.2612884123">Linga, G., <strong>Pierce, J.K.</strong>, Moura, M., Mathiesen, J., Renard, F., &amp; Le Borgne, T., Dynamic multiphase flow triggers chaotic mixing in porous media, Proceedings of the National Academy of Sciences 123 (34), e2612884123, 2026.</a></p>
-</li>
-<li>
-<p><a href="https://arxiv.org/abs/2604.02981"><strong>Pierce, J.K.</strong>, Le Borgne, T., Renard, F., &amp; Linga, G., How pore-scale disorder controls fluid stretching in porous media, arXiv:2604.02981, 2026. In revision for <em>Journal of Fluid Mechanics</em>.</a></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1029/2025WR041119">Hassan, M.A., Xing, T., McDowell, C., <strong>Pierce, J.K.</strong>, Turley, M., Leader-Cole, S., &amp; Viparelli, E., Vertical sorting of bed material in gravel-bed streams—Insights from long-term observations in East Creek, British Columbia, Water Resources Research 61 (10), e2025WR041119, 2025.</a></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1103/hm82-167x">Brodin, J.F., <strong>Pierce, J.K.</strong>, Reis, P., Rikvold, P.A., Moura, M., Jankov, M., &amp; Måløy, K.J., Interface instability of two-phase flow in a three-dimensional porous medium, Physical Review Fluids 10 (6), 064003, 2025.</a></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1029/2024JF007772">Hassan, M.A., <strong>Pierce, J.K.</strong>, &amp; Chartrand, S.M., Sediment storage and fluvial sediment transport linkages across an experimental flood sequence, Journal of Geophysical Research: Earth Surface 129 (9), e2024JF007772, 2024.</a></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.5194/esurf-10-817-2022"><strong>Pierce, J.K.</strong>, Hassan, M.A., &amp; Ferreira, R.M.L., Probabilistic description of bedload fluxes from the aggregate dynamics of individual grains, Earth Surface Dynamics 10 (4), 817–832, 2022.</a></p>
-</li>
-<li>
-<p><a href="https://arxiv.org/abs/2204.07215"><strong>Pierce, J.K.</strong>, An advection-diffusion process with proportional resetting. arXiv:2204.07215, 2022.</a></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1029/2019JF005259"><strong>Pierce, J.K.</strong> &amp; Hassan, M.A., Joint stochastic bedload transport and bed elevation model: Variance regulation and power law rests, Journal of Geophysical Research: Earth Surface 125 (4), e2019JF005259, 2020.</a></p>
-</li>
-<li>
-<p><a href="/papers/pierce-2020-back-to-einstein-grl.pdf"><strong>Pierce, J.K.</strong> &amp; Hassan, M.A., Back to Einstein: Burial‐Induced Three‐Range Diffusion in Fluvial Sediment Transport, Geophysical Research Letters 47 (15), e2020GL087440, 2020.</a></p>
-</li>
-<li>
-<p><a href="https://doi.org/10.1364/OL.37.000788">Rowley, J.D., <strong>Pierce, J.K.</strong>, Brant, A.T., Halliburton, L.E., Giles, N.C., Schunemann, P.G., &amp; Bristow, A.D., Broadband terahertz pulse emission from ZnGeP₂, Optics Letters 37 (5), 788–790, 2012.</a></p>
-</li>
-</ul>
-<p class="pubs-more"><a href="/publications/">Citation counts and more on the Publications page &rarr;</a></p>
+<div class="pubs-page" id="publications">
+<section class="pub-summary" aria-label="Summary">
+  <div class="pub-stat"><span class="pub-num" id="st-papers">12</span><span class="pub-lab">publications</span></div>
+  <div class="pub-stat"><span class="pub-num" id="st-cites">&ndash;</span><span class="pub-lab">citations</span></div>
+  <div class="pub-stat"><span class="pub-num" id="st-h">&ndash;</span><span class="pub-lab">h-index</span></div>
+  <figure class="pub-chart" id="pub-chart" aria-label="Citations per year"></figure>
+</section>
+<p class="pub-source">Citation counts from <a href="https://openalex.org/">OpenAlex</a>, fetched when the page loads; they are usually lower than on my <a href="https://scholar.google.co.il/citations?user=NME31_YAAAAJ&amp;hl=en">Google Scholar profile</a>.</p>
+
+<div class="pub-controls" role="group" aria-label="Sort and filter">
+  <div class="pub-seg" data-ctl="sort">
+    <span class="pub-seg-lab">Sort</span>
+    <button type="button" data-v="new" aria-pressed="true">Newest</button><button type="button" data-v="old" aria-pressed="false">Oldest</button><button type="button" data-v="cited" aria-pressed="false">Most cited</button>
+  </div>
+  <div class="pub-seg" data-ctl="type">
+    <span class="pub-seg-lab">Show</span>
+    <button type="button" data-v="all" aria-pressed="true">All</button><button type="button" data-v="article" aria-pressed="false">Journal articles</button><button type="button" data-v="preprint" aria-pressed="false">Preprints</button>
+  </div>
+</div>
+
+<ol class="pub-list" id="pub-list">
+  <li class="pub" data-order="0" data-year="2026" data-type="inprep">
+    <div class="pub-authors"><strong>Pierce, J.K.</strong>, Le Borgne, T., &amp; Linga, G. (2026).</div>
+    <div><span class="pub-title">Solute mixing and aggregation in heterogeneous porous media</span>.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">In preparation</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span></div>
+  </li>
+  <li class="pub" data-order="1" data-year="2026" data-type="preprint" data-doi="10.48550/arxiv.2610.04105">
+    <div class="pub-authors">Dumay, Y., <strong>Pierce, J.K.</strong>, Delhaie, J., &amp; Eiser, E. (2026).</div>
+    <div><a class="pub-title" href="https://arxiv.org/abs/2610.04105">Transparent 3D-printed flow cells for porous media studies with proof-of-concept on two-phase flow-reversal asymmetry</a>.</div>
+    <div class="pub-venue">arXiv:2610.04105.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Preprint</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://arxiv.org/abs/2610.04105">arXiv</a></div>
+  </li>
+  <li class="pub" data-order="2" data-year="2026" data-type="article" data-doi="10.1073/pnas.2612884123">
+    <div class="pub-authors">Linga, G., <strong>Pierce, J.K.</strong>, Moura, M., Mathiesen, J., Renard, F., &amp; Le Borgne, T. (2026).</div>
+    <div><a class="pub-title" href="https://doi.org/10.1073/pnas.2612884123">Dynamic multiphase flow triggers chaotic mixing in porous media</a>.</div>
+    <div class="pub-venue"><em>Proceedings of the National Academy of Sciences</em> 123 (34), e2612884123.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Journal article</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://doi.org/10.1073/pnas.2612884123">DOI</a><span class="altmetric-embed" data-badge-type="2" data-badge-popover="left" data-hide-no-mentions="true" data-doi="10.1073/pnas.2612884123"></span></div>
+  </li>
+  <li class="pub" data-order="3" data-year="2026" data-type="preprint" data-doi="10.48550/arxiv.2604.02981">
+    <div class="pub-authors"><strong>Pierce, J.K.</strong>, Le Borgne, T., Renard, F., &amp; Linga, G. (2026).</div>
+    <div><a class="pub-title" href="https://arxiv.org/abs/2604.02981">How pore-scale disorder controls fluid stretching in porous media</a>.</div>
+    <div class="pub-venue">arXiv:2604.02981. In revision for <em>Journal of Fluid Mechanics</em>.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Preprint</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://arxiv.org/abs/2604.02981">arXiv</a></div>
+  </li>
+  <li class="pub" data-order="4" data-year="2025" data-type="article" data-doi="10.1029/2025wr041119">
+    <div class="pub-authors">Hassan, M.A., Xing, T., McDowell, C., <strong>Pierce, J.K.</strong>, Turley, M., Leader-Cole, S., &amp; Viparelli, E. (2025).</div>
+    <div><a class="pub-title" href="https://doi.org/10.1029/2025WR041119">Vertical sorting of bed material in gravel-bed streams—Insights from long-term observations in East Creek, British Columbia</a>.</div>
+    <div class="pub-venue"><em>Water Resources Research</em> 61 (10), e2025WR041119.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Journal article</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://doi.org/10.1029/2025WR041119">DOI</a><span class="altmetric-embed" data-badge-type="2" data-badge-popover="left" data-hide-no-mentions="true" data-doi="10.1029/2025WR041119"></span></div>
+  </li>
+  <li class="pub" data-order="5" data-year="2025" data-type="article" data-doi="10.1103/hm82-167x">
+    <div class="pub-authors">Brodin, J.F., <strong>Pierce, J.K.</strong>, Reis, P., Rikvold, P.A., Moura, M., Jankov, M., &amp; Måløy, K.J. (2025).</div>
+    <div><a class="pub-title" href="https://doi.org/10.1103/hm82-167x">Interface instability of two-phase flow in a three-dimensional porous medium</a>.</div>
+    <div class="pub-venue"><em>Physical Review Fluids</em> 10 (6), 064003.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Journal article</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://doi.org/10.1103/hm82-167x">DOI</a><span class="altmetric-embed" data-badge-type="2" data-badge-popover="left" data-hide-no-mentions="true" data-doi="10.1103/hm82-167x"></span></div>
+  </li>
+  <li class="pub" data-order="6" data-year="2024" data-type="article" data-doi="10.1029/2024jf007772">
+    <div class="pub-authors">Hassan, M.A., <strong>Pierce, J.K.</strong>, &amp; Chartrand, S.M. (2024).</div>
+    <div><a class="pub-title" href="https://doi.org/10.1029/2024JF007772">Sediment storage and fluvial sediment transport linkages across an experimental flood sequence</a>.</div>
+    <div class="pub-venue"><em>Journal of Geophysical Research: Earth Surface</em> 129 (9), e2024JF007772.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Journal article</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://doi.org/10.1029/2024JF007772">DOI</a><span class="altmetric-embed" data-badge-type="2" data-badge-popover="left" data-hide-no-mentions="true" data-doi="10.1029/2024JF007772"></span></div>
+  </li>
+  <li class="pub" data-order="7" data-year="2022" data-type="article" data-doi="10.5194/esurf-10-817-2022">
+    <div class="pub-authors"><strong>Pierce, J.K.</strong>, Hassan, M.A., &amp; Ferreira, R.M.L. (2022).</div>
+    <div><a class="pub-title" href="https://doi.org/10.5194/esurf-10-817-2022">Probabilistic description of bedload fluxes from the aggregate dynamics of individual grains</a>.</div>
+    <div class="pub-venue"><em>Earth Surface Dynamics</em> 10 (4), 817–832.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Journal article</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://doi.org/10.5194/esurf-10-817-2022">DOI</a><span class="altmetric-embed" data-badge-type="2" data-badge-popover="left" data-hide-no-mentions="true" data-doi="10.5194/esurf-10-817-2022"></span></div>
+  </li>
+  <li class="pub" data-order="8" data-year="2022" data-type="preprint" data-doi="10.48550/arxiv.2204.07215">
+    <div class="pub-authors"><strong>Pierce, J.K.</strong> (2022).</div>
+    <div><a class="pub-title" href="https://arxiv.org/abs/2204.07215">An advection-diffusion process with proportional resetting</a>.</div>
+    <div class="pub-venue">arXiv:2204.07215.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Preprint</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://arxiv.org/abs/2204.07215">arXiv</a></div>
+  </li>
+  <li class="pub" data-order="9" data-year="2020" data-type="article" data-doi="10.1029/2019jf005259">
+    <div class="pub-authors"><strong>Pierce, J.K.</strong> &amp; Hassan, M.A. (2020).</div>
+    <div><a class="pub-title" href="https://doi.org/10.1029/2019JF005259">Joint stochastic bedload transport and bed elevation model: Variance regulation and power law rests</a>.</div>
+    <div class="pub-venue"><em>Journal of Geophysical Research: Earth Surface</em> 125 (4), e2019JF005259.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Journal article</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://doi.org/10.1029/2019JF005259">DOI</a><span class="altmetric-embed" data-badge-type="2" data-badge-popover="left" data-hide-no-mentions="true" data-doi="10.1029/2019JF005259"></span></div>
+  </li>
+  <li class="pub" data-order="10" data-year="2020" data-type="article" data-doi="10.1029/2020gl087440">
+    <div class="pub-authors"><strong>Pierce, J.K.</strong> &amp; Hassan, M.A. (2020).</div>
+    <div><a class="pub-title" href="https://doi.org/10.1029/2020GL087440">Back to Einstein: Burial-induced three-range diffusion in fluvial sediment transport</a>.</div>
+    <div class="pub-venue"><em>Geophysical Research Letters</em> 47 (15), e2020GL087440.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Journal article</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://doi.org/10.1029/2020GL087440">DOI</a><a class="pub-link" href="/papers/pierce-2020-back-to-einstein-grl.pdf">PDF</a><span class="altmetric-embed" data-badge-type="2" data-badge-popover="left" data-hide-no-mentions="true" data-doi="10.1029/2020GL087440"></span></div>
+  </li>
+  <li class="pub" data-order="11" data-year="2012" data-type="article" data-doi="10.1364/ol.37.000788">
+    <div class="pub-authors">Rowley, J.D., <strong>Pierce, J.K.</strong>, Brant, A.T., Halliburton, L.E., Giles, N.C., Schunemann, P.G., &amp; Bristow, A.D. (2012).</div>
+    <div><a class="pub-title" href="https://doi.org/10.1364/OL.37.000788">Broadband terahertz pulse emission from ZnGeP₂</a>.</div>
+    <div class="pub-venue"><em>Optics Letters</em> 37 (5), 788–790.</div>
+    <div class="pub-meta"><span class="pub-tag pub-type">Journal article</span><span class="pub-oa" hidden>Open access</span><span class="pub-cites" hidden></span><a class="pub-link" href="https://doi.org/10.1364/OL.37.000788">DOI</a><span class="altmetric-embed" data-badge-type="2" data-badge-popover="left" data-hide-no-mentions="true" data-doi="10.1364/OL.37.000788"></span></div>
+  </li>
+</ol>
+</div>
 
 </div>
 
@@ -149,6 +200,8 @@
         </div>
     
 </div>
+<script src="/js/publications.js?v=1"></script>
+<script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script data-goatcounter="https://jk-pierce.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
