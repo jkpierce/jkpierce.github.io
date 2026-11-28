@@ -90,8 +90,11 @@
             counts.push(c);
             var el = li.querySelector('.pub-cites');
             el.textContent = c === 1 ? '1 citation' : c + ' citations';
-            el.hidden = c === 0;
-            if (w.open_access && w.open_access.is_oa) li.querySelector('.pub-oa').hidden = false;
+            el.hidden = false;
+            var oa = li.querySelector('.pub-oa'), open = !!(w.open_access && w.open_access.is_oa);
+            oa.textContent = open ? 'Open access' : 'Paywalled';
+            oa.classList.toggle('is-closed', !open);
+            oa.hidden = false;
             (w.counts_by_year || []).forEach(function (cy) { byYear[cy.year] = (byYear[cy.year] || 0) + cy.cited_by_count; });
         });
         counts.sort(function (a, b) { return b - a; });

@@ -81,11 +81,12 @@
     white-space: nowrap;
 }
 #content .pub-oa { border-color: #c9a227; color: #8a6d00; }
+#content a.pub-doi { padding: .05rem .5rem; border-radius: 999px; border: 1px solid var(--accent); white-space: nowrap; }
+#content a.pub-doi:hover { background: var(--accent); color: #fff; text-decoration: none; }
+#content .pub-oa.is-closed { border-color: #ccc; color: #777; }
 #content .pub-cites { border-color: var(--accent); color: var(--accent); font-weight: 600; }
 #content a.pub-link { color: var(--accent); }
 #content a.pub-link:hover { text-decoration: underline; }
-#content .altmetric-embed { display: inline-block; line-height: 0; }
-#content .altmetric-embed img { margin: 0; display: inline; }
 
 @media (max-width: 575.98px) {
     .pub-summary { grid-template-columns: repeat(3, 1fr); gap: .8rem; }
